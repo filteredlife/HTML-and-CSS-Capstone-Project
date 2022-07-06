@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Lima Bean's Portfolio</title>
   </head>
   <body>
@@ -19,29 +32,33 @@
         </div>
       </nav>
     </header>
-    <div>
-      <form action="" method="post">
+    <div id="form-block">
+      <form action="" method="post" id="form">
         <fieldset>
           <legend>Reach Out!</legend>
-          <div>
-            <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" name="full_name" />
+          <div id="form-flex">
+            <div class="form_div">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="full_name" />
+            </div>
+            <div class="form_div">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email_address" />
+            </div>
+            <div class="form_div">
+              <label for="checkbox"
+                >Do you wish to joining Lima Bean's mailing list?</label
+              >
+              <input type="checkbox" name="check_box" id="checkbox" />
+            </div>
+            <div class="form_div">
+              <label for="textarea">Any comments?</label>
+              <textarea name="text_area" id="textarea"></textarea>
+            </div>
+            <div class="form_div">
+              <button id="submit_button" type="submit">Submit</button>
+            </div>
           </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email_address" />
-          </div>
-          <div>
-            <label for="checkbox"
-              >Do you wish to joining Lima Bean's mailing list?</label
-            >
-            <input type="checkbox" name="check_box" id="checkbox" />
-          </div>
-          <div>
-            <label for="textarea">Any comments?</label>
-            <textarea name="text_area" id="textarea"></textarea>
-          </div>
-          <div><button type="submit">Submit</button></div>
         </fieldset>
       </form>
     </div>

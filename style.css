@@ -1,0 +1,163 @@
+//navigation styling
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 25%;
+  z-index: 1;
+}
+.nav a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #59717e;
+  font-size: 1.25rem;
+  margin-right: 3rem;
+}
+.nav-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  background-color: #dae1e3;
+}
+//background color for the page
+body {
+  margin: 0;
+  background-color: #dae1e3;
+}
+
+//home page styling
+#img-block {
+  width: 100%;
+  position: relative;
+}
+#Bean-header {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30rem;
+  color: #dae1e3;
+  z-index: 0;
+}
+#heroimg {
+  width: 100%;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #888d8e;
+}
+.text-section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+#text-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-section {
+  width: 33%;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.text-section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #373839;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+//info page styling
+#link-block a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #373839;
+}
+
+#info-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#link-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+//contact page styling
+#form {
+  width: 30%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  justify-content: center;
+}
+
+#form-block {
+  display: flex;
+  justify-content: center;
+}
+.form_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.25rem;
+  align-items: center;
+  width: 100%;
+}
+fieldset {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+#form-flex {
+  display: flex;
+  flex-direction: column;
+}
+#submit_button {
+  width: 4rem;
+}
+
+//gallery page styling
+.img-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#top-row {
+  display: flex;
+  flex-direction: row;
+}
+#bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+.img-block img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
