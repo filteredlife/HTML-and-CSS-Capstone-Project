@@ -1,4 +1,4 @@
-//navigation styling
+/*navigation styling*/
 .nav {
   list-style: none;
   display: flex;
@@ -22,13 +22,13 @@
 
   background-color: #dae1e3;
 }
-//background color for the page
+/*background color for the page*/
 body {
   margin: 0;
   background-color: #dae1e3;
 }
 
-//home page styling
+/*home page styling*/
 #img-block {
   width: 100%;
   position: relative;
@@ -81,7 +81,7 @@ h1 {
   font-weight: 300;
   font-size: 3rem;
 }
-//info page styling
+/*info page styling*/
 #link-block a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -99,7 +99,7 @@ h1 {
   justify-content: center;
 }
 
-//contact page styling
+/*contact page styling*/
 #form {
   width: 30%;
   display: flex;
@@ -132,7 +132,7 @@ fieldset {
   width: 4rem;
 }
 
-//gallery page styling
+/*gallery page styling*/
 .img-block {
   display: flex;
   flex-direction: column;
